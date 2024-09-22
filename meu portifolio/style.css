@@ -1,0 +1,220 @@
+/* Resetar margin para evitar comportamento inesperado */
+* {
+    margin: 0; /* Resetar margens para todos os elementos */
+    padding: 0; /* Resetar padding para todos os elementos */
+    flex-shrink: 3;
+    box-sizing: border-box; /* Inclui padding e border no cálculo da largura e altura */
+}
+
+
+
+body {
+    background-color: rgb(24, 22, 22); /* Cor de fundo geral */
+}
+
+.navbar{
+    display: flex;
+    background-color: rgba(58, 53, 53, 0.322);
+    padding: 30px 20px; /* Ajuste o padding para maior controle do layout */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+
+}
+
+.navbar a {
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px; /* Ajuste o padding para um bom espaçamento dos links */
+    background-color: transparent;
+    margin: 0px 20px; /* Adiciona espaçamento entre os links */
+}
+
+
+
+.navbar a:hover {
+    background-color: rgba(40, 220, 252, 0.1); /* Adiciona um efeito visual ao passar o mouse */
+    border-radius: 30px;
+    transition: 0.4s;
+}
+
+strong{
+    color: aqua;
+    text-shadow: 2px 2px rgba(255, 236, 236, 0.349)
+}
+
+
+
+.nome{
+    display: flex;
+    text-align: center;
+    margin: 200px;
+    color: white;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    box-shadow: inset;
+    justify-content: center;
+}
+
+.sociais{
+    list-style-type: none;
+    margin: 1px;
+    text-align: center;
+}
+
+.sociais button{
+    display: inline-block;
+    text-align: center;
+    padding: 16px;
+    width: 100px;
+    background-color: rgb(24, 22, 22);    border-color: white;
+    border-radius: 300px;
+    border-color: aqua;
+}
+
+.sociais a {
+    padding: 1px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+    transition: 0.1s;
+    
+}
+
+.sociais a:hover{
+    font-size:  42px;
+    transition: 0.1s;
+}
+.sociais button:hover{
+    transition: 0.1s;
+    background-color: rgba(0, 255, 255, 0.247);
+}
+.texto{
+    margin: 100px;
+    color: white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: justify;
+ 
+}
+
+.texto p{
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+
+#texto1{
+    display: flex;
+    margin: 300px 0px 0px 0px;
+    color: white;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+}
+
+
+
+
+#projeto{
+    display: flex;
+    margin: 100px;
+    color: white;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+}
+
+#Projeto a:hover{
+    font-size: 26px;
+    transition: 0.8s;
+}
+
+.imagens{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact{
+    display: flex;
+    margin: 140px;
+    color: white;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+}
+
+
+.contact-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card1{
+    background-color: rgba(173, 189, 197, 0.336);
+    padding: 3px;
+    border-radius: 1px;
+}
+
+.card1:hover{
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.rodape {
+    background-color: rgb(41, 40, 43);
+    padding: 40px;
+    text-align: center;
+}
+
+.button{
+    display: flex;
+    padding: 16px;
+    align-items: center;
+    font-size: 30px;
+    justify-content: center;
+    }
+
+.button a{
+    color: white;
+    padding: 10px;
+    }
+
+    .button a:hover{
+        color: rgba(0, 255, 255, 0.247);
+        cursor: pointer;
+    }
+
+
+.rodape h3{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
